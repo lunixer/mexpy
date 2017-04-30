@@ -26,3 +26,6 @@ logger.info(' Booting script....')
 
 exec(compile(source=open('src/libs/config.py').read(), filename='src/libs/config.py', mode='exec'))
 logger.info(' Booting done....')
+
+#records = {'john': 55, 'tom': 66}
+#logger.debug(' Records: %s', records)
