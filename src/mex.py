@@ -1,0 +1,16 @@
+import logging
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+
+logger.info(' Booting script....')
+
+
+# read database here
+records = {'john': 55, 'tom': 66}
+logger.debug(' Records: %s', records)
+logger.info(' Updating records ...')
+
+
+
+# update records here
+logger.info(' Finish updating records')
